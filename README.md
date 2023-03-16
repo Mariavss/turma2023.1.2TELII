@@ -1,3 +1,19 @@
-# Turma2023.1.2TELII
-Repositório da Turma 2023.1.2TELII Vespertino - Curso Técnico em Eletrônica do IFRR. Componente Curricular Linguagem de Programação.
-### Professor Dalmo Silva Mendes
+Algoritmo "ParOuImpar"
+
+
+Var
+
+    numero : inteiro
+
+Inicio
+
+    escreva("Escreva um numero: ")
+    leia(numero)
+    
+    se numero mod 2 = 0 entao
+        escreva ("O número " , numero , " é par")
+    se nao
+        escreva ("O número " , numero , " é impar")
+
+        fimse
+Fimalgoritmo
